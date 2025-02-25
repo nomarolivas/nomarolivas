@@ -43,7 +43,7 @@ const Nomar = () => {
             Resume
           </a>
 
-          <a href='/' className='px-6 py-3 w-full rounded-xl mr-4     
+          <a href='#contact' className='px-6 py-3 w-full rounded-xl   
             border border-gray-400 hover:bg-gradient-to-br  from-blue-400 to-green-400
              text-white hover:border-none'>
             Contact
