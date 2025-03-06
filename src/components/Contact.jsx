@@ -12,7 +12,7 @@ const Contact = () => {
             <div className='mt-6 bg-[#161616] rounded-xl'>
                 <div className='p-10'>
 
-                    <form action="#"  method='POST'>
+                    <form action="https://getform.io/f/avrwmxza"  method='POST'>
                         <div className='grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-4'>
                             <div>
                                 <div className='mt-2.5'>
