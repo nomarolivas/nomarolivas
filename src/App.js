@@ -3,6 +3,7 @@ import Nomar from "./components/Nomar";
 import Skills from "./components/Skills";
 import About from "./components/About";
 import Work from "./components/Work";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
        <Skills></Skills>
        <About></About>
        <Work></Work>
+       <Contact></Contact>
 
     </div>
   );
