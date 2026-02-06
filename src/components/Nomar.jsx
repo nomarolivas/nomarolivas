@@ -1,6 +1,6 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
-import aboutPic from '../assets/aboutPic.JPG'
+import aboutPic from '../assets/aboutPic.jpg'
 
 
 const Nomar = () => {
