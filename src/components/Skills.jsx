@@ -7,7 +7,8 @@ import javascript from '../assets/javascript.png'
 
 const Skills = () => {
   return (
-    <div className='border border-gray-600 bg-black text-gray-400 md:h-[150px] max-w-[1200px] mx-auto grid grid-cols-6 
+    // <div className='border border-gray-600 bg-black text-gray-400 md:h-[150px] max-w-[1200px] mx-auto grid grid-cols-
+    <div className=' bg-black text-gray-400 md:h-[150px] max-w-[1200px] mx-auto grid grid-cols-
                         place-items-center md:flex md:justify-between md:items-center'>
         
 

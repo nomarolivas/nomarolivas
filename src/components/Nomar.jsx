@@ -1,6 +1,11 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
 import aboutPic from '../assets/aboutPic.jpg'
+import {
+  AiFillLinkedin,
+  AiFillGithub,
+
+} from "react-icons/ai";
 
 
 const Nomar = () => {
@@ -54,6 +59,26 @@ const Nomar = () => {
         </div>
 
 
+        <div className='my-8'>
+          <a href='/' className='px-6 py-3 w-full text-5xl gap-16  text-gray-600 dark:text-gray-400 '>
+            <button onClick={() => clickLinkedIn()}>
+                <AiFillLinkedin />
+            </button>
+        
+          </a>
+
+          <a href='#contact' className='px-6 py-3 text-5xl gap-16  text-gray-600 dark:text-gray-400 '>
+
+          <button onClick={() => clickGit()}>
+                <AiFillGithub />
+            </button>
+          </a>
+
+
+
+        </div>
+
+
 
 
 
@@ -66,3 +91,14 @@ const Nomar = () => {
 }
 
 export default Nomar
+
+function clickLinkedIn() {
+  window.open("https://www.linkedin.com/in/nomarolivas/", '_blank');
+  
+}
+
+function clickGit() {
+
+  window.open("https://github.com/nomarolivas", '_blank');
+  
+}
