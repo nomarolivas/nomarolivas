@@ -1,6 +1,6 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
-import profilePicture from '../assets/profilePicture.JPG'
+import aboutPic from '../assets/aboutPic.JPG'
 
 
 const Nomar = () => {
@@ -9,7 +9,7 @@ const Nomar = () => {
 
       <div className='col-span-1 my-auto mx-auto w-[300px] h-auto lg:w-[400px]'>
 
-        <img src={profilePicture} alt='Nomar profile picture' />
+        <img src={aboutPic} alt='Nomar profile picture' />
 
       </div>
 
@@ -23,11 +23,11 @@ const Nomar = () => {
 
           <TypeAnimation
             sequence={[
+              "Business Analyst",
+              1000,
               "Data Analyst",
               1000,
               "IT Specialist",
-              1000,
-              "Software Engineer",
               1000,
             ]}
 
